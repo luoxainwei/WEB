@@ -14,11 +14,10 @@
 <body>
 
 当前登陆用户<%=session.getAttribute("name")%>;
-<a href='shoping.jsp'>去购买吧</a>
 <%
   if(session.getAttribute("name")!=null){
-    out.println("<a href='logout.jsp'>" +
-            "<button type=\"reset\" class=\"btn btn-danger\">注销</button>" +
+    out.println("<a href='calander.html'>" +
+            "<button type=\"reset\" class=\"btn btn-danger\">签到打卡</button>" +
             "</a>");
   }else{
     out.println("<a href='login.html'>" +
