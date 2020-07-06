@@ -1,4 +1,4 @@
-@charset "UTF-8";        
+@charset "UTF-8";
 *{
     padding: 0%;
     margin: 0%;
@@ -91,6 +91,19 @@ html, body{
 
 .green{
     color:#6ac13c;
+}
+
+.lightgrey{ /*浅灰色显示过去的日期*/
+    color:#a8a8a8;
+}
+.darkgrey{ /*深灰色显示将来的日期*/
+    color:#565656;
+}
+
+/*日期当天用绿色背景绿色文字加以显示*/
+.greenbox{
+    border: 1px solid #6ac13c;
+    background: #e9f8df;
 }
 button{
 float:right;
