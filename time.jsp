@@ -2,9 +2,7 @@
 <html >
 <head>
     <style type="text/css">
-        div{
-            font-size:58px;
-        }
+        @import url("time.css");
     </style>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
@@ -62,7 +60,10 @@
 </head>
 
 <body>
+<div class="box">
+<p>受了N次伤，就要用N的N次方的动力去努力。因为(N->+∞)</p>
 <div id="timer"></div>
+</div>
 </body>
 </html>
 
