@@ -12,16 +12,17 @@
   <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-当前登陆用户<%=session.getAttribute("name")%>;
 <%
   if(session.getAttribute("name")!=null){
     out.println("<a href='calander.html'>" +
-            "<button type=\"reset\" class=\"btn btn-danger\">签到打卡</button>" +
+            "<button type=\"reset\" class=\"btn btn-primary\">查看日历</button>" +
+            "</a>"+"<a href='logout.jsp'>" +
+            "<button type=\"reset\" class=\"btn btn-danger\">注销</button>" +
             "</a>");
+
   }else{
     out.println("<a href='login.html'>" +
-            "<button type=\"reset\" class=\"btn btn-primary\">登陆</button>" +
+            "<button type=\"reset\" class=\"btn btn-primary\">点错了，重新登陆。</button>" +
             "</a>");
   }
 %>
