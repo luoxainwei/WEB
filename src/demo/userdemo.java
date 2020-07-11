@@ -3,11 +3,43 @@ import java.util.HashMap;
 
 public class userdemo {
     static HashMap<String, String> users = new HashMap<>();//内存数据库
-    static{
-        users.put("admin","123456");
-        users.put("tom","123");
-        users.put("cat","456");
+
+    static {
+        users.put("admin", "123456");
+        users.put("2701170101", "2701170101");
+        users.put("2701170102", "2701170102");
+        users.put("2701170103", "2701170103");
+        users.put("2701170104", "2701170104");
+        users.put("2701170105", "2701170105");
+        users.put("2701170106", "2701170106");
+        users.put("2701170107", "2701170107");
+        users.put("2701170108", "2701170108");
+        users.put("2701170109", "2701170109");
+        users.put("2701170110", "2701170110");
+        users.put("2701170111", "2701170111");
+        users.put("2701170112", "2701170112");
+        users.put("2701170113", "2701170113");
+        users.put("2701170114", "2701170114");
+        users.put("2701170115", "2701170115");
+        users.put("2701170116", "2701170116");
+        users.put("2701170117", "2701170117");
+        users.put("2701170118", "2701170118");
+        users.put("2701170119", "2701170119");
+        users.put("2701170120", "2701170120");
+        users.put("2701170121", "2701170121");
+        users.put("2701170122", "2701170122");
+        users.put("2701170123", "2701170123");
+        users.put("2701170124", "2701170124");
+        users.put("2701170125", "2701170125");
+        users.put("2701170126", "2701170126");
+        users.put("2701170127", "2701170127");
+        users.put("2701170128", "2701170128");
+        users.put("2701170129", "2701170129");
+        users.put("2701170130", "2701170130");
+        users.put("2701170131", "2701170131");
+        users.put("2701170132", "2701170132");
     }
+
     public static boolean register(String name, String pass) {
         if (users.containsKey(name) || name.trim().isEmpty()) {
             System.err.println("注册失败");
